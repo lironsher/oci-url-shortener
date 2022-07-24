@@ -158,7 +158,7 @@ ___
 
 ## FAQ
 - **Can I try this app online?**
-    - Yes, kindly visit [http://short.xccv.co/](https://short.xccv.co/)
+    - Yes, kindly visit [http://short.xccv.co/](http://short.xccv.co/)
 
 
 ___
