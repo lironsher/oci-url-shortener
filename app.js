@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 const app = express()
 const exphbs = require('express-handlebars')
@@ -7,8 +8,7 @@ const mongoose = require('mongoose')
 const convertController = require('./controllers/convert')
 const homeController = require('./controllers/home')
 
-const port = 3000
-
+const port = process.env.PORT || 3000
 // connect mongoose with database
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/url', { useNewUrlParser: true })
 
@@ -40,6 +40,6 @@ app.get('/convert', convertController.getShortened)
 
 app.get('/:shortenedUrl', convertController.getOriginal)
 
-app.listen(process.env.PORT || port, () => {
-  console.log('App is running')
+app.listen(port, () => {
+  console.log(`App is running open: https://localhost:${port}`)
 })
