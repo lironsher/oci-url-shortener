@@ -163,10 +163,12 @@ ___
 
 ___
 
-## Orignal Author
-[Mike Huang](https://github.com/smallpaes)
+## Orignal Authors
+Node code - [Mike Huang](https://github.com/smallpaes)
 
-## OCI version Author
+OCI - [Roger Ford](https://blogs.oracle.com/database/post/mongodb-api)
+
+## OCI Version Author
 [Liron Sher](https://github.com/lironsher)
 
 ### Trial in this project 🤠
